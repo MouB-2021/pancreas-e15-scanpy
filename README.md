@@ -5,7 +5,7 @@ Bastidas-Ponce et al. (2019), starting from the raw count files on GEO and going
 control, clustering, cell-type annotation and PAGA trajectory inference.
 
 The code was written from scratch in Python (Scanpy, Jupyter) rather than reusing the authors'
-notebooks, so that the results could be checked independently against the published findings.
+notebook, so that the results could be checked independently against the published findings.
 
 ## Data
 
@@ -65,7 +65,7 @@ The data are not included in this repository. Download the E15.5 files from GEO 
 
 ```
 .
-├── notebooks/
+├── notebook/
 │   └── e15_5_analysis.ipynb   # full analysis, step by step
 ├── figures/                   # exported plots used in this README
 ├── data/
@@ -81,7 +81,7 @@ Requires Python 3 and these packages:
 pip install scanpy anndata leidenalg matplotlib pandas numpy jupyterlab
 ```
 
-Then start Jupyter and open `notebooks/e15_5_analysis.ipynb`:
+Then start Jupyter and open `notebook/e15_5_analysis.ipynb`:
 
 ```bash
 jupyter lab
