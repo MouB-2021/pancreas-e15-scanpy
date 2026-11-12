@@ -49,16 +49,23 @@ The data are not included in this repository. Download the E15.5 files from GEO 
 - **Trajectory (PAGA):** on the ductal and endocrine clusters, PAGA connected ductal cells to
   Ngn3-high endocrine progenitors, then to Fev+ cells, which branched towards beta, delta and
   alpha/epsilon cells. This matches the endocrine differentiation route described in the paper.
+- **Pseudotime (DPT):** diffusion pseudotime ordered the cells the same way: ductal and proliferating
+  ductal cells near the start (about 0–0.2), Ngn3-high progenitors spread across the middle
+  (about 0.1–0.8), and Fev+, delta, alpha/epsilon and beta cells at the end (about 0.75–1.0).
+
 - **Not resolved at this stage:** alpha and epsilon cells were not separated, and Ngn3-low
   progenitors did not form a distinct cluster.
 
 ![UMAP of annotated cell types](figures/umap.png)
 
-![Annotated cell types](figures/annotation.png)
+![UMAP of annotated cell types](figures/Annotation.png)
 
-![PAGA trajectory graph](figures/paga.png)
+![PAGA trajectory graph](figures/PAGA.png)
 
-![Pseudotime graph](figures/pseudotime.png)
+
+![Trajectory](figures/trajectory_analysis.png)
+
+![Diffusion pseudotime by cell type](figures/pseudotime.png)
 
 
 ## Repository structure
